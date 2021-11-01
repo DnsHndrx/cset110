@@ -1,0 +1,565 @@
+
+body 
+{ 
+    font-family: "Roboto", "Helvetica", "Sans-serif"; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    color: #777; 
+    line-height: 1.7; 
+} 
+
+
+
+:not(.slick-track):not(.slick-list) 
+{ 
+    transition: 0.4s; 
+} 
+
+.container 
+{ 
+    max-width: 1140px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+} 
+
+.flex 
+{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-hero-container 
+{ 
+    min-height: 600px; 
+    height: calc(100vh); 
+    position: relative;
+} 
+
+header 
+{ 
+    background: transparent; 
+    padding: 1rem 0; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    position: fixed; 
+    width: 100%; 
+    z-index: 3; 
+} 
+
+#logo 
+{ 
+    font-family: "Roboto", "Helvetica", "Sans-serif"; 
+    font-size: 1.7rem; 
+    font-weight: 800; 
+    color: #fff; 
+    text-decoration: none; 
+    position: relative; 
+    top: 4px; 
+} 
+
+header ul 
+{ 
+    list-style-type: none; 
+} 
+
+header ul li 
+{ 
+    display: inline-block; 
+    margin: 0 15px; 
+} 
+
+#close-flyout 
+{ 
+    display: none; 
+} 
+
+header ul li a 
+{ 
+    color: #999; 
+    font-size: 16px; 
+    text-decoration: none; 
+} 
+
+header ul.is-sticky li a 
+{ 
+    color: #000; 
+} 
+
+header ul li a:hover, header ul li a.active 
+{ 
+    color: #fff; 
+} 
+
+header ul.is-sticky li a:hover, header ul.is-sticky li a.active 
+{ 
+    color: #f69314; 
+}
+
+#hero 
+{ 
+    background: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg%27') center center no-repeat; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    height: 100%; 
+    width: 100%; 
+} 
+
+    #hero .fade 
+    { 
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        top: 0; 
+        left: 0; 
+        background: rgba(52, 58, 64, 0.9); 
+        z-index: 1; 
+    } 
+    
+    #hero .hero-text 
+    { 
+        position: absolute; 
+        top: 50%; 
+        margin: -75px auto 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 2; 
+        color: #fff; 
+        width: 500px; 
+        text-align: center; 
+    } 
+    
+    #hero .hero-text p 
+    { 
+        line-height: 1.5em; 
+        font-weight: 300; 
+        font-size: 1rem; 
+    }
+    
+.how
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.how h2
+{
+    color: #e67e22;
+}
+
+.how-container
+{
+    display: flex;
+    width: 100%;
+}
+
+.how-item
+{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how .icon-small
+{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+}
+.btnsprop{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prop
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prop h2
+{
+    color: #e67e22;
+}
+
+.prop-nav li
+{
+    display: inline;
+}
+
+.prop-nav button:hover
+{
+    cursor: pointer;
+    color: black;
+}
+
+.prop-container
+{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.prop-slider
+{
+    width: 500px;
+    height: auto;
+    display: flex;
+}
+
+.prop-item
+{
+    width: 500px;
+    margin-right: 5px;
+}
+
+.prop-item img
+{
+    width: 400px;
+    height: auto;
+}
+
+.prop button
+{
+    background-color: transparent;
+    border: none;
+    color: #777;
+}
+
+.prop .view
+{
+    background-color: #e67e22;
+    border: #e67e22 10px solid;
+    border-radius: 20px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+h1,h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+} 
+.agents{
+    margin-left: 5%;
+    padding-bottom: 100px;
+}
+.agents h1{
+    font-size: 40px;
+}
+.services{
+    background-color: rgba(221, 218, 218, 0.404);
+    display: flex;
+    flex-direction: column;
+    width: 1350px;
+    padding-bottom: 7.5%;
+}
+.row{
+    display: flex;
+}
+.serve{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mid{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box{
+    display: inline-flex;
+    width: 33%;
+}
+.box h3{
+    font-family: "Roboto","Helvetica", "Sans-serif";
+    color: #777;
+    font-weight: 300;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(255, 162, 40);
+}
+.box a:hover{
+    text-decoration: underline;
+}
+ion-icon{
+    font-size: 250%;
+    color: rgb(255, 162, 40);
+    margin-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.about{
+    margin-top: 5%;
+}
+.large-paragraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.about a{
+    background-color: rgb(255, 162, 40);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    line-height: 1.5;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.left img{
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding-bottom: 100px;
+}
+.profiles{
+    width: 375px;
+    margin: 2%;
+    background-color: rgba(221, 218, 218, 0.616);
+}
+.cap{
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+.profiles img{
+    width: 100%;
+}
+h1{
+    color: rgb(255, 162, 40);
+}
+.services h1{
+    font-size: 300%;
+    text-align: center;
+}
+.about h1{
+    font-size: 250%;
+    letter-spacing: 2%;
+    word-spacing: 2%;
+}
+h3{
+    font-family: "Playfair-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+.profile p, .profile h3{
+    padding-left: 30px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* start: testimonials styles */
+#testimonials {
+    margin-bottom: 8rem;
+}
+
+#testimonials h2 {
+    text-align: center;
+}
+
+#testimonials-slider .slick-slide {
+    text-align: center;
+}
+
+#testimonials-slider blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem auto 3rem;
+    max-width: 740px;
+}
+
+#testimonials-slider .testimonials-caption {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+    float: left;
+    border-radius: 30px;
+    width: 60px;
+}
+
+.testimonials-caption p {
+    position: relative;
+    top: 13px;
+    font-size: 1.2rem;
+}
+
+#testimonials-slider .slick-arrow {
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    color: #222;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 1;
+}
+#testimonials-slider .slick-next {
+    right: 0;
+}
+h2{
+    color: rgb(255, 162, 40);
+}
+.contact{
+    background: #f8f9fa;
+    padding-top: .5%;
+    padding-bottom: 10%;
+}
+.flx1{
+    width: 50%;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+.center{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.flx1 input{
+    margin-left: 5%;
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    border: #333 1px solid;
+}
+#message{
+    height: 140px;
+}
+.hd2{
+    text-align: center;
+    font-size: 50px;
+}
+.flx1 a{
+    text-decoration: none;
+    background-color: rgb(255, 162, 40);
+    color: rgb(255, 255, 255);
+    border: rgb(255, 162, 40) solid 1px;
+    border-radius: 20px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.flx2{
+    margin-left: -20%;
+    width: 30%;
+    margin-bottom: 300px;
+    padding-left: 20px;
+}
+.flx2 a{
+    text-decoration: none;
+    color: rgb(255, 162, 40);
+}
+.flx2 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #333;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footro{
+    padding-bottom: 5%;
+}
+.footer b{
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 120%;
+}
+.footer ion-icon{
+    color: rgb(126, 123, 123);
+}
+.flx1{
+    display:inline-flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 25%;
+    background-color: rgb(255, 255, 255);
+}
+.flx2{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: -1%;
+}
+.ftflx1{
+    padding-left: 10%;
+    padding-right: 20%;
+}
+.ftflx2{
+    padding-right: 10%;
+}
+.ftflx2 a{
+    text-decoration: none;
+    color:rgb(126, 123, 123);
+}
+.ftflx2 a:hover{
+    color: white;
+}
+.ftflx3 input{
+    width: 70%;
+    height: 15%;
+    background-color: #333;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: rgb(126, 123, 123) 1px solid;
+}
+.ftflx3 button{
+    height: 16.75%;
+    background-color: rgb(255, 162, 40);
+    margin-left: -2%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: rgb(126, 123, 123) 1px solid;
+}
+.ftflx3 ion-icon{
+    font-size: 150%;
+    margin-top: -2%;
+}
+.ftflx3 ion-icon:hover{
+    color: white;
+    transition: 2s;
+}
+hr{
+    width: 80%;
+}
+.footer small{
+    margin-left: 30%;
+}
+small ion-icon{
+    font-size: 150%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.footer small a{
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+}
+.footer small a:hover{
+    color: white;
+}
