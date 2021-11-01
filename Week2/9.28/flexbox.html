@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>FlexBox</title>
+        <style>
+            .flexbox-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items:center;
+                align-content: center;
+            }
+            .flexbox-item{
+                width: 200px;
+                margin: 10px;
+                border: 2px solid #333;
+                background-color: #dfdfdf;
+
+            }
+            .flexbox-item-1{
+                min-height: 100px;
+                flex: 1 0;
+                align-self: flex-end;
+            }
+            .flexbox-item-2{
+                min-height: 200px;
+                flex-grow: 2;
+                flex-basis: 0;
+                align-self: center;
+            }
+            .flexbox-item-3{
+                min-height: 300px;
+                flex-grow: 1;
+                flex-basis: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flexbox-container">
+            <div class="flexbox-item flexbox-item-1">You are a wizard harry</div>
+            <div class="flexbox-item flexbox-item-2">Not me not hermoine you</div>
+            <div class="flexbox-item flexbox-item-3">36 counted them myself</div>
+        </div>
+    </body>
+</html>

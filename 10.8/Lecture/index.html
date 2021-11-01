@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h2>jQuery Lecture</h2>
+        <button class="button">Delete</button>
+        <button class="add">Add</button>
+        <h1>The Fool</h1>
+        <p>High Priestess</p>
+    </body>
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(() => {
+                $(".add").click(function(){
+                    $("h1, h2, p").addClass("blue");
+                    $("div").addClass("important");
+                });
+                $(".button").click(function(){
+                    $("h1, h2, p").removeClass("blue");
+                });
+            });
+        </script>
+</html>

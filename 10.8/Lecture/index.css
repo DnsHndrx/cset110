@@ -1,0 +1,14 @@
+#panel, #flip{
+    padding: 5px;
+    text-align: center;
+    background-color: blueviolet;
+    border:cadetblue solid 1px;
+}
+#panel{
+    padding: 50px;
+}
+
+.blue
+{
+    color: darkblue;
+}

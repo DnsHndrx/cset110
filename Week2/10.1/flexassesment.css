@@ -1,0 +1,50 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.navigation{
+    list-style-type: none;
+}
+.navigation li{
+    display: inline-block;
+}
+#logout{
+    padding-left: 2000%;
+}
+
+.blackbox{
+    color: cornsilk;
+    background-color: black;
+    padding-bottom: 20%;
+}
+.split{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+article{
+    display: flex;
+    width: 85%;
+    align-items:flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+aside{
+    display: flex;
+    margin-right: 10px;
+    width: 15%;
+    align-content: flex-end;
+    align-items: left;
+    flex-direction: column;
+}
+.blackbox2{
+    color: cornsilk;
+    background-color: black;
+    padding-bottom: 70%;
+}
+footer{
+    background-color: black;
+    color: cornsilk;
+    padding: 1.25%;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                /*Causes Double Border*/
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                /*Double border no longer visible*/
+            }
+            th,td{
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            tr:hover{
+                background-color: gold;
+            }
+            tr:nth-child(odd){
+                background-color: #f2f2f2;
+            }
+            a:link{
+                color: #FF0000;
+            }
+            a:visited{
+                color: #00FF00;
+                /*after clicked*/
+            }
+            a.hover{
+                color:#FF00FF;
+                /*must go AFTER a:link*/
+            }
+            a.active{
+                color: #0000FF;
+                /*must go AFTER .hover*/
+            }
+            #grad{
+                background-image: linear-gradient(to bottom right, red,yellow);
+            }
+            h1{
+                text-shadow: 2px 2px 5px red, 0 0 5px blueviolet;
+            }
+            div #box{
+                box-shadow: 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+            </tr>
+        </table>
+        <a href="#">Hiiii</a>
+        <div>
+            <p>True Sight</p>
+        </div>
+        <div id="grad">
+            Hi
+        </div>
+        <div>
+        <h1>I know someone who can help</h1>
+        <h1>My mom</h1>
+        </div>
+        <div id="box">
+            <p>Oh no hes going to sacrifice himself!</p>
+        </div>
+    </body>
+</html>
